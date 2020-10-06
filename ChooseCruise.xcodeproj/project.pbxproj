@@ -7,15 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52725B36252C4A8B00DCB74D /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52725B33252C4A8A00DCB74D /* car@2x.png */; };
+		52725B37252C4A8B00DCB74D /* car@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52725B34252C4A8B00DCB74D /* car@3x.png */; };
+		52725B38252C4A8B00DCB74D /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 52725B35252C4A8B00DCB74D /* car.png */; };
 		5275EB8D252BAF3800231137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275EB8C252BAF3800231137 /* AppDelegate.swift */; };
 		5275EB8F252BAF3800231137 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275EB8E252BAF3800231137 /* SceneDelegate.swift */; };
 		5275EB91252BAF3800231137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275EB90252BAF3800231137 /* ViewController.swift */; };
 		5275EB94252BAF3800231137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5275EB92252BAF3800231137 /* Main.storyboard */; };
 		5275EB96252BAF3900231137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5275EB95252BAF3900231137 /* Assets.xcassets */; };
 		5275EB99252BAF3900231137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5275EB97252BAF3900231137 /* LaunchScreen.storyboard */; };
+		5275EBAB252BAFAC00231137 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275EBAA252BAFAC00231137 /* IntentHandler.swift */; };
+		5275EBAF252BAFAC00231137 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5275EBA8252BAFAC00231137 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5275EBAD252BAFAC00231137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5275EB81252BAF3800231137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5275EBA7252BAFAC00231137;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5275EBB3252BAFAC00231137 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5275EBAF252BAFAC00231137 /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		52725B33252C4A8A00DCB74D /* car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@2x.png"; sourceTree = "<group>"; };
+		52725B34252C4A8B00DCB74D /* car@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@3x.png"; sourceTree = "<group>"; };
+		52725B35252C4A8B00DCB74D /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
 		5275EB89252BAF3800231137 /* ChooseCruise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChooseCruise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5275EB8C252BAF3800231137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5275EB8E252BAF3800231137 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,10 +56,20 @@
 		5275EB95252BAF3900231137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5275EB98252BAF3900231137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5275EB9A252BAF3900231137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5275EBA8252BAFAC00231137 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5275EBAA252BAFAC00231137 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		5275EBAC252BAFAC00231137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5275EB86252BAF3800231137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5275EBA5252BAFAC00231137 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				5275EB8B252BAF3800231137 /* ChooseCruise */,
+				5275EBA9252BAFAC00231137 /* Extension */,
 				5275EB8A252BAF3800231137 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				5275EB89252BAF3800231137 /* ChooseCruise.app */,
+				5275EBA8252BAFAC00231137 /* Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +111,18 @@
 			path = ChooseCruise;
 			sourceTree = "<group>";
 		};
+		5275EBA9252BAFAC00231137 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				52725B35252C4A8B00DCB74D /* car.png */,
+				52725B33252C4A8A00DCB74D /* car@2x.png */,
+				52725B34252C4A8B00DCB74D /* car@3x.png */,
+				5275EBAA252BAFAC00231137 /* IntentHandler.swift */,
+				5275EBAC252BAFAC00231137 /* Info.plist */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +133,34 @@
 				5275EB85252BAF3800231137 /* Sources */,
 				5275EB86252BAF3800231137 /* Frameworks */,
 				5275EB87252BAF3800231137 /* Resources */,
+				5275EBB3252BAFAC00231137 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5275EBAE252BAFAC00231137 /* PBXTargetDependency */,
 			);
 			name = ChooseCruise;
 			productName = ChooseCruise;
 			productReference = 5275EB89252BAF3800231137 /* ChooseCruise.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5275EBA7252BAFAC00231137 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5275EBB0252BAFAC00231137 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				5275EBA4252BAFAC00231137 /* Sources */,
+				5275EBA5252BAFAC00231137 /* Frameworks */,
+				5275EBA6252BAFAC00231137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = 5275EBA8252BAFAC00231137 /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +172,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					5275EB88252BAF3800231137 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5275EBA7252BAFAC00231137 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -115,6 +193,7 @@
 			projectRoot = "";
 			targets = (
 				5275EB88252BAF3800231137 /* ChooseCruise */,
+				5275EBA7252BAFAC00231137 /* Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +206,16 @@
 				5275EB99252BAF3900231137 /* LaunchScreen.storyboard in Resources */,
 				5275EB96252BAF3900231137 /* Assets.xcassets in Resources */,
 				5275EB94252BAF3800231137 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5275EBA6252BAFAC00231137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52725B38252C4A8B00DCB74D /* car.png in Resources */,
+				52725B37252C4A8B00DCB74D /* car@3x.png in Resources */,
+				52725B36252C4A8B00DCB74D /* car@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +232,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5275EBA4252BAFAC00231137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5275EBAB252BAFAC00231137 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5275EBAE252BAFAC00231137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5275EBA7252BAFAC00231137 /* Extension */;
+			targetProxy = 5275EBAD252BAFAC00231137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5275EB92252BAF3800231137 /* Main.storyboard */ = {
@@ -284,11 +389,13 @@
 		5275EB9E252BAF3900231137 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PTYV272Z4;
 				INFOPLIST_FILE = ChooseCruise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +403,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ua.com.kr.ssh.ChooseCruise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5275EB9F252BAF3900231137 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PTYV272Z4;
 				INFOPLIST_FILE = ChooseCruise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +424,47 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ua.com.kr.ssh.ChooseCruise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5275EBB1252BAFAC00231137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PTYV272Z4;
+				INFOPLIST_FILE = Extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ua.com.kr.ssh.ChooseCruise.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5275EBB2252BAFAC00231137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PTYV272Z4;
+				INFOPLIST_FILE = Extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ua.com.kr.ssh.ChooseCruise.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -336,6 +485,15 @@
 			buildConfigurations = (
 				5275EB9E252BAF3900231137 /* Debug */,
 				5275EB9F252BAF3900231137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5275EBB0252BAFAC00231137 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5275EBB1252BAFAC00231137 /* Debug */,
+				5275EBB2252BAFAC00231137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
